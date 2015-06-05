@@ -1,0 +1,15 @@
+class Starship
+	attr_accessor :name, :captain_name
+
+my_starship = Pegasus.new
+my_starship.name= "Pegasus"
+starshipname = my_starship.get_name
+my_starship.captain_name= "Tiberius"
+captain = my_starship.captain_name
+puts "The #{starshipname} commanded by #{captain} says #{my_starship.saying}"
+
+puts my_starship.inspect
+
+
+
+
